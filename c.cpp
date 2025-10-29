@@ -27,7 +27,7 @@ printf("[최종결과] 예측된 물체의 길이: %.1f mm\n ", w×n);
 
 
 printf("재시도하시겠습니까? (예=1, 아니요=0)");
-scanf("%lf", &r);
+scanf("%d", &r);
 if(r==0) { break;}
 
 }
